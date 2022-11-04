@@ -11,3 +11,5 @@ ps：如果需要添加线程扫描 python God.py -x 线程数量
 结果会在xray目录下以html形式生成
 
 安装chrome xray需要这个浏览器
+
+[![Stargazers over time](https://starchart.cc/Pik-sec/God-auto.svg)](https://starchart.cc/Pik-sec/God-auto)
