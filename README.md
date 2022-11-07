@@ -9,6 +9,8 @@
 ps：如果需要添加线程扫描 python God.py -x 线程数量
 
 ```
+pip install -r requirements.txt
+
 python God.py -x 1 -v 1 -p 1 -n 1 -a 1
 ```
 
