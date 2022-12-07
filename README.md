@@ -40,4 +40,10 @@ python God.py -x 1 -v 1 -p 1 -n 1 -a 1
 
 原先会遗漏目标，更新后不再遗漏目标
 
+## 12月7日 更新
+
+端口由 : 改成 _
+
 [![Stargazers over time](https://starchart.cc/Pik-sec/God-auto.svg)](https://starchart.cc/Pik-sec/God-auto)
+
+
