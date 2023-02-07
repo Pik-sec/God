@@ -40,7 +40,7 @@ yum update glib2 -y
 ```
 yum autoremove -y google-chrome
 ```
-ubuntu 安装
+# ubuntu 安装
 ```
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
