@@ -51,7 +51,7 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 ```
 原因是chrome的沙箱问题，不能以root用户运行。
 
-#重点
+# 重点
 
 解决方案
 修改 /usr/bin/ 目录下的 google-chrome 配置文件
