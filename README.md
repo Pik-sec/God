@@ -51,6 +51,8 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 ```
 原因是chrome的沙箱问题，不能以root用户运行。
 
+#重点
+
 解决方案
 修改 /usr/bin/ 目录下的 google-chrome 配置文件
 ```
@@ -62,7 +64,7 @@ exec -a "$0" "$HERE/chrome" "$@"
 exec -a "$0" "$HERE/chrome" "$@" 注释掉
 
 添加
-exec -a "$0" "$HERE/chrome" "$@" --user-data-dir --no-sandbox
+exec -a "$0" "$HERE/chrome" "$@"  --no-sandbox $HOME
 重新运行xray脚本即可
 ```
 ## 11月10日 更新
